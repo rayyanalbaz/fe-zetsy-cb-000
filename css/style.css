@@ -54,6 +54,9 @@ p {
   color: #1783bb ;
   text-decoration: none;
 }
+.main a:hover{
+  text-decoration: underline;
+}
 .Rights {
   text-align: right;
   background: #fff;
