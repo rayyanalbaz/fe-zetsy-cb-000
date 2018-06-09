@@ -24,7 +24,10 @@ h2 {
   color: #6f7f7a;
   font-size: 2em;
 }
-
+.header a {
+  text-decoration: none;
+  color:  #98ada6;
+}
 h1 {
   color: #98ada6;
   font-size: 5em;
