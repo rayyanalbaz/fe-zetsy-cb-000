@@ -28,6 +28,9 @@ h2 {
   text-decoration: none;
   color:  #98ada6;
 }
+.header a:hover{
+  background-color: #6f7f7a;
+}
 h1 {
   color: #98ada6;
   font-size: 5em;
