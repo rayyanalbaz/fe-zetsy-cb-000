@@ -1,20 +1,75 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+  font-family: "Baskerville";
+  src : url('/fonts/Baskerville.ttc') format("truetype");
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
+	background: #ffffff;
 	padding: 0 45px 20px;
 }
 
+h2 {
+  color: #6f7f7a;
+  font-size: 2em;
+}
+.header a {
+  text-decoration: none;
+  color:  #98ada6;
+}
+.header a:hover{
+  color: #6f7f7a;
+}
+h1 {
+  color: #98ada6;
+  font-size: 5em;
+  margin: 0 0 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+}
+
+.main {
+  color: #555;
+  font-size: 1em;
+  margin: o o 20px 0;
+}
+.main a {
+  color: #1783bb ;
+  text-decoration: none;
+}
+.main a:hover{
+  text-decoration: underline;
+}
+.Rights {
+  text-align: right;
+  background: #fff;
+  font-size: 0.8em;
+  color: #555;
+}
+.image {
+  border: 5px #98ada6 solid  ;
+}
+.Press img {
+  border: 5px #ccc solid;
+}
+.Press img:hover {
+  border-color: #6f7f7a;
+}
 /* Write all remaining styles here */
